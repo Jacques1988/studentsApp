@@ -8,7 +8,7 @@ git clone git@github.com:Jacques1988/studentsApp.git
 
 
 2. **Gehe mit der Konsole in den Ordner**
-cd testproject
+cd studentsApp
 
 3. **Installiere deine venv und aktiviere sie**
 python -m venv venv

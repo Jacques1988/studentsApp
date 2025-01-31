@@ -17,9 +17,12 @@ venv/Scripts/activate
 4. **Installiere die Abhängigkeiten aus der requirements.txt**
 pip install -r requirements.txt
 
-5. **Führe dide Datenbankmigration durch**
+5. **Führe die Datenbankmigration durch**
 python manage.py makemigrations
-pathon manage.py migrate
+python manage.py migrate
 
 6. **Starte den Server**
 python manage.py runserver
+
+
+Edit Spaghett21: Fixed typos in Django migration command

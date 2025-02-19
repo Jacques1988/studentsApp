@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAuthenticated, AllowAny, IsAdminUser
 
 
 
-class StudentAPIView(generics.ListAPIView):
+class StudentAPIView(generics.ListCreateAPIView):
     queryset = Student.objects.all()
     serializer_class = StudentAPISerializer
     permission_classes = [IsAuthenticated]
